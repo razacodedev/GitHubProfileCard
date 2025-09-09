@@ -19,12 +19,13 @@ Live Demo: [GitHubProfileCard](https://razacodedev.github.io/GitHubProfileCard/)
 - **Smooth animations**: Hover-enabled zoom, rotation, gradient glow
 - **Responsive design**: Looks great on desktop and mobile
 - **Customizable styles**: Easily modify colors, borders, and transitions
+
 ---
 
 ## 👨‍💻 Tech Stack
 
 - **HTML5 & CSS3** — Semantic markup and modern styling  
-- **JavaScript** — Fetches and displays live GitHub data  
+- **JavaScript** — Fetches and displays live GitHub data via **XMLHttpRequest**  
 - **GitHub REST API** — Powers real-time stats  
 - **GitHub Pages** — Free deployment of live demo  
 
