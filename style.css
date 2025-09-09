@@ -8,6 +8,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Prevent selection on images and containers */
+.profile-pic, .profile-pic img {
+    user-select: none;         /* standard */
+    -webkit-user-select: none; /* Safari/Chrome */
+    -ms-user-select: none;     /* IE10+ */
+}
+
 body {
     background-color: #f2f6ff;
     display: flex;
