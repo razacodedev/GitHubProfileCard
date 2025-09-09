@@ -25,7 +25,7 @@ xhr.onreadystatechange = function()
 {
     console.log(xhr.readyState);
     
-    if (xhr.readyState === 4) {
+    if (xhr.readyState === 4 && xhr.status === 200) {
         const data = JSON.parse(this.responseText)
         // console.log(typeof data);
         // console.log(data.followers);
