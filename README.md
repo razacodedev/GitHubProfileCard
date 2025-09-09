@@ -12,14 +12,13 @@ Live Demo: [GitHubProfileCard](https://razacodedev.github.io/GitHubProfileCard/)
 
 ## ⭐ Features
 
-- **Real-time data** from GitHub API:
+- **Real-time data** from GitHub API using **XMLHttpRequest** with HTTP status check (`status === 200`):
   - Avatar, Name, Bio
   - Followers, Following, Repository Count
   - Location and Join Date
 - **Smooth animations**: Hover-enabled zoom, rotation, gradient glow
 - **Responsive design**: Looks great on desktop and mobile
 - **Customizable styles**: Easily modify colors, borders, and transitions
-
 ---
 
 ## 👨‍💻 Tech Stack
