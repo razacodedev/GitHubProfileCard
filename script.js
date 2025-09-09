@@ -37,12 +37,14 @@ xhr.onreadystatechange = function()
         let bio = document.getElementById('bio')
         let profileLink = document.getElementById('profile-link')
         let joined = document.getElementById('joined')
+        let avatar = document.getElementById('avatar')
         followers.innerHTML = `${data.followers}`
         repos.innerHTML = `${data.public_repos}`
         following.innerHTML = `${data.following}`
         location.innerHTML = `${data.location}`
         name.innerHTML = `${data.name}`
         bio.innerHTML = `${data.bio}`
+        avatar.src = data.avatar_url;
         
         let date = new Date(data.created_at);
         joined.innerHTML = date.toLocaleDateString('en-US', {
