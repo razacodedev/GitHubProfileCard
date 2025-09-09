@@ -2,10 +2,6 @@
 
 GitHubProfileCard — A sleek, responsive GitHub profile card showing live stats via GitHub API with smooth animations and modern design.
 
-[![GitHub followers](https://img.shields.io/github/followers/razacodedev?style=social)](https://github.com/razacodedev)
-[![GitHub repo count](https://img.shields.io/github/repos/razacodedev/GitHubProfileCard?style=flat-square)](https://github.com/razacodedev/GitHubProfileCard)
-[![GitHub stars](https://img.shields.io/github/stars/razacodedev/GitHubProfileCard?style=social)](https://github.com/razacodedev/GitHubProfileCard/stargazers)
-
 Live Demo: [GitHubProfileCard](https://razacodedev.github.io/GitHubProfileCard/)
 
 ---
