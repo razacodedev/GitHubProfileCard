@@ -1,0 +1,149 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Picture Container */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, #4f46e5, #6366f1, #9333ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(79, 70, 229, 0.3);
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Hover Effects */
+.profile-pic:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 15px 35px rgba(79, 70, 229, 0.5);
+    background: linear-gradient(135deg, #6366f1, #9333ea, #4f46e5);
+}
+
+.profile-pic:hover img {
+    transform: scale(1.15) rotate(-5deg);
+    filter: brightness(1.1) saturate(1.2);
+}
+
+/* Name Styling */
+h2 {
+    color: #222;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.stat {
+    flex: 1;
+}
+
+.stat span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+/* Extra Info */
+.extra-info {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.extra-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #4f46e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+}
+
+.btn:hover {
+    background-color: #3730a3;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.5);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .card {
+        padding: 20px 15px;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

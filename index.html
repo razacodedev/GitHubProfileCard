@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="profile-pic">
+                <img id="avatar" src="https://avatars.githubusercontent.com/u/124212183?v=4" alt="Profile Picture">
+            </div>
+            <h2 id="name">Your Name</h2>
+            <p id="bio">Your bio will appear here...</p>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span id="followers"></span>
+                    <p>Followers</p>
+                </div>
+                <div class="stat">
+                    <span id="repos">0</span>
+                    <p>Repositories</p>
+                </div>
+                <div class="stat">
+                    <span id="following">0</span>
+                    <p>Following</p>
+                </div>
+            </div>
+
+            <div class="extra-info">
+                <p><strong>Location:</strong> <span id="location">Unknown</span></p>
+                <p><strong>Joined:</strong> <span id="joined">--</span></p>
+            </div>
+
+            <a id="profile-link" href="" target="_blank" class="btn">Visit Profile</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
